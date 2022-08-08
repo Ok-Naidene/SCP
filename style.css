@@ -1,0 +1,57 @@
+*{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("images/SCPcover.png");
+    background-size: cover;
+    
+}
+header{
+color: whitesmoke;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+a{
+   text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.Header-content{
+margin-bottom: 150px;
+color: whitesmoke;
+text-align: center;
+}
+.Header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-image: linear-gradient(rgb(90, 231, 127), rgb(254, 66, 198));
+    border-radius: 5px;
+}
+.Header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background-image: linear-gradient(rgb(90, 231, 127),rgb(254, 66, 198));
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.container{
+    text-align: center;
+    color: whitesmoke;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+ 
